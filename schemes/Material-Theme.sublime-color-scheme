@@ -1,0 +1,514 @@
+{
+    "name": "Material-Theme",
+    "author": "Mattia Astorino",
+    "variables":
+    {
+        "black": "#000000",
+        "blue": "#82aaff",
+        "blue2": "#89ddff",
+        "blue3": "#65737e",
+        "blue4": "#37474f",
+        "blue5": "#b2ccd6",
+        "blue6": "#546e7a",
+        "blue7": "#263238",
+        "cyan": "#80cbc4",
+        "orange": "#ffcb6b",
+        "orange2": "#ffcc00",
+        "purple": "#c792ea",
+        "red": "#f07178",
+        "red2": "#ff5370",
+        "red3": "#f78c6c",
+        "red4": "#c17e70",
+        "white": "#ffffff",
+        "white2": "#eeffff",
+        "yellow": "#f8e71c",
+        "yellow2": "#c3e88d"
+    },
+    "globals":
+    {
+        "foreground": "var(white2)",
+        "background": "var(blue7)",
+        "caret": "var(orange2)",
+        "invisibles": "var(blue3)",
+        "line_highlight": "color(var(black) alpha(0.31))",
+        "selection": "color(var(cyan) alpha(0.13))",
+        "selection_border": "color(var(cyan) alpha(0.13))",
+        "gutter_foreground": "var(blue4)",
+        "shadow": "color(var(black) alpha(0.063))",
+        "guide": "color(var(blue4) alpha(0.5))",
+        "active_guide": "color(var(cyan) alpha(0.44))",
+        "stack_guide": "var(blue4)",
+        "find_highlight": "var(yellow)",
+        "popup_css": "html {\n  background-color: #263238;\n  color: #EEFFFF;\n  padding: 16px;\n}\na {\n  color: #B2CCD6;\n  line-height: 16px;\n}\n.error, .deleted {\n  color: #FF5370;\n}\n.success, .inserted {\n  color: #C3E88D;\n}\n.warning, .modified {\n  color: #FFCB6B;\n}\n.type {\n  color: #89DDFF;\n  font-style: italic;\n}\n.param {\n  color: #F78C6C;\n}\n.current {\n  text-decoration: underline;\n}\n"
+    },
+    "rules":
+    [
+        {
+            "name": "Comments",
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "var(blue6)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable, string constant.other.placeholder",
+            "foreground": "var(white2)"
+        },
+        {
+            "name": "Colors",
+            "scope": "constant.other.color",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid, invalid.illegal, invalid.broken",
+            "foreground": "var(white)",
+            "background": "var(red2)"
+        },
+        {
+            "name": "Unimplemented",
+            "scope": "invalid.unimplemented",
+            "foreground": "var(white)",
+            "background": "var(yellow2)"
+        },
+        {
+            "name": "Invalid deprecated",
+            "scope": "invalid.deprecated",
+            "foreground": "var(white)",
+            "background": "var(purple)"
+        },
+        {
+            "name": "Keyword, Storage",
+            "scope": "keyword, storage.type, storage.modifier",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Keyword, Storage",
+            "scope": "storage.type, keyword.control",
+            "font_style": "italic"
+        },
+        {
+            "name": "Operator, Misc",
+            "scope": "keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
+            "foreground": "var(blue2)"
+        },
+        {
+            "name": "Tag",
+            "scope": "entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Function, Special Method, Block Level",
+            "scope": "entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Other Variable, String Link",
+            "scope": "support.other.variable, string.other.link",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+            "scope": "constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit",
+            "foreground": "var(red3)"
+        },
+        {
+            "name": "String, Symbols, Inherited Class, Markup Heading",
+            "scope": "string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+            "foreground": "var(yellow2)",
+            "font_style": "normal"
+        },
+        {
+            "name": "Class, Support",
+            "scope": "entity.name.class, entity.name.type.class, support.type, support.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, support.type.sys-types",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "CSS Class and Support",
+            "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
+            "foreground": "var(blue5)"
+        },
+        {
+            "name": "Sub-methods",
+            "scope": "entity.name.module.js, variable.import.parameter.js, variable.other.class.js",
+            "foreground": "var(red2)"
+        },
+        {
+            "name": "Language methods",
+            "scope": "variable.language",
+            "foreground": "var(red2)",
+            "font_style": "italic"
+        },
+        {
+            "name": "entity.name.method.js",
+            "scope": "entity.name.method.js",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "meta.method.js",
+            "scope": "meta.class-method.js entity.name.function.js, variable.function.constructor",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Attributes",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "HTML Attributes",
+            "scope": "text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name",
+            "foreground": "var(orange)",
+            "font_style": "italic"
+        },
+        {
+            "name": "CSS Classes",
+            "scope": "entity.other.attribute-name.class",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "CSS Id",
+            "scope": "source.sass keyword.control",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(red2)"
+        },
+        {
+            "name": "Changed",
+            "scope": "markup.changed",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Regular Expressions",
+            "scope": "string.regexp",
+            "foreground": "var(blue2)"
+        },
+        {
+            "name": "Escape Characters",
+            "scope": "constant.character.escape",
+            "foreground": "var(blue2)"
+        },
+        {
+            "name": "URL",
+            "scope": "*url*, *link*, *uri*",
+            "font_style": "underline"
+        },
+        {
+            "name": "Search Results Nums",
+            "scope": "constant.numeric.line-number.find-in-files - match",
+            "foreground": "var(red4)"
+        },
+        {
+            "name": "Search Results Lines",
+            "scope": "entity.name.filename.find-in-files",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Decorators",
+            "scope": "tag.decorator.js entity.name.tag.js, tag.decorator.js punctuation.definition.tag.js",
+            "foreground": "var(blue)",
+            "font_style": "italic"
+        },
+        {
+            "name": "ES7 Bind Operator",
+            "scope": "source.js constant.other.object.key.js string.unquoted.label.js",
+            "foreground": "var(red2)",
+            "font_style": "italic"
+        },
+        {
+            "name": "JSON Key - Level 8",
+            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "JSON Key - Level 7",
+            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "JSON Key - Level 6",
+            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "JSON Key - Level 5",
+            "scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "JSON Key - Level 4",
+            "scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(red4)"
+        },
+        {
+            "name": "JSON Key - Level 3",
+            "scope": "source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(red2)"
+        },
+        {
+            "name": "JSON Key - Level 2",
+            "scope": "source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(red3)"
+        },
+        {
+            "name": "JSON Key - Level 1",
+            "scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "JSON Key - Level 0",
+            "scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Markdown - Plain",
+            "scope": "text.html.markdown, punctuation.definition.list_item.markdown",
+            "foreground": "var(white2)"
+        },
+        {
+            "name": "Markdown - Markup Raw Inline",
+            "scope": "text.html.markdown markup.raw.inline",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Markdown - Markup Raw Inline Punctuation",
+            "scope": "text.html.markdown punctuation.definition.raw.markdown",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "Markdown - Line Break",
+            "scope": "text.html.markdown meta.dummy.line-break",
+            "foreground": ""
+        },
+        {
+            "name": "Markdown - Heading",
+            "scope": "markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "Markup - Italic",
+            "scope": "markup.italic",
+            "foreground": "var(red)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Markup - Bold",
+            "scope": "markup.bold, markup.bold string",
+            "foreground": "var(red)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markup - Bold & Italic",
+            "scope": "markup.bold markup.italic, markup.italic markup.bold, markup.quote markup.bold, markup.bold markup.italic string, markup.italic markup.bold string, markup.quote markup.bold string",
+            "font_style": "bold italic"
+        },
+        {
+            "name": "Markup - Underline",
+            "scope": "markup.underline",
+            "foreground": "var(red3)",
+            "font_style": "underline"
+        },
+        {
+            "name": "Markup - Strike",
+            "scope": "markup.strike",
+            "foreground": "",
+            "font_style": "strike"
+        },
+        {
+            "name": "Markdown - Blockquote",
+            "scope": "markup.quote punctuation.definition.blockquote.markdown",
+            "foreground": "var(blue3)",
+            "background": "var(blue3)"
+        },
+        {
+            "name": "Markup - Quote",
+            "scope": "markup.quote",
+            "foreground": "",
+            "font_style": "italic"
+        },
+        {
+            "name": "Markdown - Link",
+            "scope": "string.other.link.title.markdown",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "Markdown - Link Description",
+            "scope": "string.other.link.description.title.markdown",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Markdown - Link Anchor",
+            "scope": "constant.other.reference.link.markdown",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Markup - Raw Block",
+            "scope": "markup.raw.block",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Markdown - Raw Block Fenced",
+            "scope": "markup.raw.block.fenced.markdown",
+            "background": "color(var(black) alpha(0.31))"
+        },
+        {
+            "name": "Markdown - Fenced Bode Block",
+            "scope": "punctuation.definition.fenced.markdown",
+            "background": "color(var(black) alpha(0.31))"
+        },
+        {
+            "name": "Markdown - Fenced Bode Block Variable",
+            "scope": "markup.raw.block.fenced.markdown, variable.language.fenced.markdown, punctuation.section.class.end",
+            "foreground": "var(white2)"
+        },
+        {
+            "name": "Markdown - Fenced Language",
+            "scope": "variable.language.fenced.markdown",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "Markdown - Punctuation Definition",
+            "scope": "text.html.markdown punctuation.definition",
+            "foreground": "var(blue6)"
+        },
+        {
+            "name": "Markdown HTML - Punctuation Definition",
+            "scope": "text.html.markdown meta.disable-markdown punctuation.definition",
+            "foreground": "var(blue2)"
+        },
+        {
+            "name": "Markdown - Separator",
+            "scope": "meta.separator",
+            "foreground": "var(blue3)",
+            "background": "color(var(black) alpha(0.31))",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markup - Table",
+            "scope": "markup.table",
+            "foreground": "var(white2)",
+            "background": ""
+        },
+        {
+            "name": "AceJump Label - Blue",
+            "scope": "acejump.label.blue",
+            "foreground": "var(white)",
+            "background": "var(blue)"
+        },
+        {
+            "name": "AceJump Label - Green",
+            "scope": "acejump.label.green",
+            "foreground": "var(white)",
+            "background": "var(yellow2)"
+        },
+        {
+            "name": "AceJump Label - Orange",
+            "scope": "acejump.label.orange",
+            "foreground": "var(white)",
+            "background": "var(red3)"
+        },
+        {
+            "name": "AceJump Label - Purple",
+            "scope": "acejump.label.purple",
+            "foreground": "var(white)",
+            "background": "var(purple)"
+        },
+        {
+            "name": "SublimeLinter Warning",
+            "scope": "sublimelinter.mark.warning",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "SublimeLinter Gutter Mark",
+            "scope": "sublimelinter.gutter-mark",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "SublimeLinter Error",
+            "scope": "sublimelinter.mark.error",
+            "foreground": "var(red2)"
+        },
+        {
+            "name": "SublimeLinter Annotation",
+            "scope": "sublimelinter.annotations",
+            "background": "var(red4)"
+        },
+        {
+            "name": "GitGutter Ignored",
+            "scope": "markup.ignored.git_gutter",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "GitGutter Untracked",
+            "scope": "markup.untracked.git_gutter",
+            "foreground": "var(blue3)"
+        },
+        {
+            "name": "GitGutter Inserted",
+            "scope": "markup.inserted.git_gutter",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "GitGutter Changed",
+            "scope": "markup.changed.git_gutter",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "GitGutter Deleted",
+            "scope": "markup.deleted.git_gutter",
+            "foreground": "var(red2)"
+        },
+        {
+            "name": "Bracket Default",
+            "scope": "brackethighlighter.default",
+            "foreground": "color(var(blue5) alpha(0.3))"
+        },
+        {
+            "name": "Bracket Curly",
+            "scope": "brackethighlighter.curly",
+            "foreground": "color(var(blue2) alpha(0.3))"
+        },
+        {
+            "name": "Bracket Round",
+            "scope": "brackethighlighter.round",
+            "foreground": "color(var(blue2) alpha(0.3))"
+        },
+        {
+            "name": "Bracket Square",
+            "scope": "brackethighlighter.square",
+            "foreground": "color(var(blue2) alpha(0.3))"
+        },
+        {
+            "name": "Bracket Angle",
+            "scope": "brackethighlighter.angle",
+            "foreground": "color(var(blue2) alpha(0.3))"
+        },
+        {
+            "name": "Bracket Tag",
+            "scope": "brackethighlighter.tag",
+            "foreground": "color(var(blue2) alpha(0.3))"
+        },
+        {
+            "name": "Bracket C Define",
+            "scope": "brackethighlighter.c_define",
+            "foreground": "color(var(purple) alpha(0.3))"
+        },
+        {
+            "name": "Bracket Quote",
+            "scope": "brackethighlighter.quote",
+            "foreground": "color(var(blue2) alpha(0.3))"
+        },
+        {
+            "name": "Bracket Unmatched",
+            "scope": "brackethighlighter.unmatched",
+            "foreground": "color(var(red2) alpha(0.3))"
+        }
+    ]
+}
