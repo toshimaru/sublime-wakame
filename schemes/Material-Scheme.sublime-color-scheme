@@ -3,6 +3,7 @@
     "author": "Toshimaru",
     "variables":
     {
+        "background": "#253036",
         "black": "#000000",
         "blue": "#82aaff",
         "blue2": "#89ddff",
@@ -10,7 +11,6 @@
         "blue4": "#37474f",
         "blue5": "#b2ccd6",
         "blue6": "#546e7a",
-        "blue7": "#263238",
         "cyan": "#80cbc4",
         "orange": "#ffcb6b",
         "orange2": "#ffcc00",
@@ -20,17 +20,17 @@
         "red3": "#f78c6c",
         "red4": "#c17e70",
         "white": "#ffffff",
-        "white2": "#eeffff",
+        "white2": "#c5c8c6",
         "yellow": "#f8e71c",
         "yellow2": "#c3e88d"
     },
     "globals":
     {
         "foreground": "var(white2)",
-        "background": "var(blue7)",
-        "caret": "var(orange2)",
+        "background": "var(background)",
+        "caret": "var(white2)",
         "invisibles": "var(blue3)",
-        "line_highlight": "color(var(black) alpha(0.31))",
+        "line_highlight": "color(var(white) alpha(0.1))",
         "selection": "color(var(cyan) alpha(0.13))",
         "selection_border": "color(var(cyan) alpha(0.13))",
         "gutter_foreground": "var(blue4)",
