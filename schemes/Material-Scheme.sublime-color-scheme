@@ -19,14 +19,14 @@
         "red2": "#ff5370",
         "red3": "#f78c6c",
         "red4": "#c17e70",
-        "white": "#ffffff",
+        "white": "#eeffff",
         "white2": "#c5c8c6",
         "yellow": "#f8e71c",
         "yellow2": "#c3e88d"
     },
     "globals":
     {
-        "foreground": "var(white2)",
+        "foreground": "var(white)",
         "background": "var(background)",
         "caret": "var(white2)",
         "invisibles": "var(blue3)",
