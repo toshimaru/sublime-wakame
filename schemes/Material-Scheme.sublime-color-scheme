@@ -223,51 +223,6 @@
             "font_style": "italic"
         },
         {
-            "name": "JSON Key - Level 8",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(yellow2)"
-        },
-        {
-            "name": "JSON Key - Level 7",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "JSON Key - Level 6",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(red)"
-        },
-        {
-            "name": "JSON Key - Level 5",
-            "scope": "source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "JSON Key - Level 4",
-            "scope": "source.json meta meta meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(red4)"
-        },
-        {
-            "name": "JSON Key - Level 3",
-            "scope": "source.json meta meta meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(red2)"
-        },
-        {
-            "name": "JSON Key - Level 2",
-            "scope": "source.json meta meta meta meta.structure.dictionary.json string.quoted.double.json - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(red3)"
-        },
-        {
-            "name": "JSON Key - Level 1",
-            "scope": "source.json meta meta.structure.dictionary.json string.quoted.double.json - meta meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta meta.structure.dictionary.json punctuation.definition.string - meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "JSON Key - Level 0",
-            "scope": "source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string",
-            "foreground": "var(purple)"
-        },
-        {
             "name": "Markdown - Plain",
             "scope": "text.html.markdown, punctuation.definition.list_item.markdown",
             "foreground": "var(white2)"
@@ -395,30 +350,6 @@
             "scope": "markup.table",
             "foreground": "var(white2)",
             "background": ""
-        },
-        {
-            "name": "AceJump Label - Blue",
-            "scope": "acejump.label.blue",
-            "foreground": "var(white)",
-            "background": "var(blue)"
-        },
-        {
-            "name": "AceJump Label - Green",
-            "scope": "acejump.label.green",
-            "foreground": "var(white)",
-            "background": "var(yellow2)"
-        },
-        {
-            "name": "AceJump Label - Orange",
-            "scope": "acejump.label.orange",
-            "foreground": "var(white)",
-            "background": "var(red3)"
-        },
-        {
-            "name": "AceJump Label - Purple",
-            "scope": "acejump.label.purple",
-            "foreground": "var(white)",
-            "background": "var(purple)"
         },
         {
             "name": "SublimeLinter Warning",
