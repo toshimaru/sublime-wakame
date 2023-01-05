@@ -98,6 +98,11 @@
             "foreground": "var(red)"
         },
         {
+            "name": "Tag name",
+            "scope": "entity.name.tag | meta.mapping.key string.unquoted",
+            "foreground": "var(red)"
+        },
+        {
             "name": "Function, Special Method, Block Level",
             "scope": "entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level",
             "foreground": "var(blue)"
