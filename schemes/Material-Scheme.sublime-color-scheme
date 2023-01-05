@@ -12,6 +12,7 @@
         "blue5": "#b2ccd6",
         "blue6": "#546e7a",
         "cyan": "#80cbc4",
+        "green": "#c3e88d",
         "orange": "#ffcb6b",
         "orange2": "#ffcc00",
         "purple": "#c792ea",
@@ -22,7 +23,6 @@
         "white": "#eeffff",
         "white2": "#c5c8c6",
         "yellow": "#f8e71c",
-        "yellow2": "#c3e88d"
     },
     "globals":
     {
@@ -69,7 +69,7 @@
             "name": "Unimplemented",
             "scope": "invalid.unimplemented",
             "foreground": "var(white)",
-            "background": "var(yellow2)"
+            "background": "var(green)"
         },
         {
             "name": "Invalid deprecated",
@@ -115,7 +115,7 @@
         {
             "name": "String, Symbols, Inherited Class, Markup Heading",
             "scope": "string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-            "foreground": "var(yellow2)",
+            "foreground": "var(green)",
             "font_style": "normal"
         },
         {
@@ -173,7 +173,7 @@
         {
             "name": "Inserted",
             "scope": "markup.inserted",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "name": "Deleted",
@@ -208,7 +208,7 @@
         {
             "name": "Search Results Lines",
             "scope": "entity.name.filename.find-in-files",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "name": "Decorators",
@@ -245,7 +245,7 @@
         {
             "name": "Markdown - Heading",
             "scope": "markdown.heading, markup.heading | markup.heading entity.name, markup.heading.markdown punctuation.definition.heading.markdown",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "name": "Markup - Italic",
@@ -384,7 +384,7 @@
         {
             "name": "GitGutter Inserted",
             "scope": "markup.inserted.git_gutter",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "name": "GitGutter Changed",
