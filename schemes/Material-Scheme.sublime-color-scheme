@@ -142,7 +142,7 @@
         {
             "name": "CSS Class and Support",
             "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-            "foreground": "var(blue5)"
+            "foreground": "var(cyan)"
         },
         {
             "name": "Sub-methods",
