@@ -50,8 +50,13 @@
             "font_style": "italic"
         },
         {
-            "name": "Variable",
-            "scope": "variable, string constant.other.placeholder",
+            "name": "Variables",
+            "scope": "variable",
+            "foreground": "var(white2)"
+        },
+        {
+            "name": "placeholder",
+            "scope": "string constant.other.placeholder",
             "foreground": "var(white2)"
         },
         {
