@@ -93,8 +93,13 @@
             "font_style": "italic"
         },
         {
-            "name": "Operator, Misc",
-            "scope": "punctuation, keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
+            "name": "Operator",
+            "scope": "keyword.operator",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Misc",
+            "scope": "punctuation, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.section.embedded, keyword.other.template, keyword.other.substitution",
             "foreground": "var(white2)"
         },
         {
