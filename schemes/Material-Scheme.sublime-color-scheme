@@ -411,50 +411,5 @@
             "scope": "markup.deleted.git_gutter",
             "foreground": "var(red2)"
         },
-        {
-            "name": "Bracket Default",
-            "scope": "brackethighlighter.default",
-            "foreground": "color(var(blue5) alpha(0.3))"
-        },
-        {
-            "name": "Bracket Curly",
-            "scope": "brackethighlighter.curly",
-            "foreground": "color(var(blue2) alpha(0.3))"
-        },
-        {
-            "name": "Bracket Round",
-            "scope": "brackethighlighter.round",
-            "foreground": "color(var(blue2) alpha(0.3))"
-        },
-        {
-            "name": "Bracket Square",
-            "scope": "brackethighlighter.square",
-            "foreground": "color(var(blue2) alpha(0.3))"
-        },
-        {
-            "name": "Bracket Angle",
-            "scope": "brackethighlighter.angle",
-            "foreground": "color(var(blue2) alpha(0.3))"
-        },
-        {
-            "name": "Bracket Tag",
-            "scope": "brackethighlighter.tag",
-            "foreground": "color(var(blue2) alpha(0.3))"
-        },
-        {
-            "name": "Bracket C Define",
-            "scope": "brackethighlighter.c_define",
-            "foreground": "color(var(purple) alpha(0.3))"
-        },
-        {
-            "name": "Bracket Quote",
-            "scope": "brackethighlighter.quote",
-            "foreground": "color(var(blue2) alpha(0.3))"
-        },
-        {
-            "name": "Bracket Unmatched",
-            "scope": "brackethighlighter.unmatched",
-            "foreground": "color(var(red2) alpha(0.3))"
-        }
     ]
 }
