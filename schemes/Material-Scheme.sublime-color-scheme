@@ -416,5 +416,10 @@
             "scope": "markup.deleted.git_gutter",
             "foreground": "var(red2)"
         },
+        {
+            "name": "Entity name",
+            "scope": "entity.name - (entity.name.filename | entity.name.section | entity.name.label)",
+            "foreground": "var(red)"
+        },
     ]
 }
