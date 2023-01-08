@@ -183,7 +183,7 @@
         {
             "name": "HTML Attributes",
             "scope": "text.html.basic entity.other.attribute-name.html, text.html.basic entity.other.attribute-name",
-            "foreground": "var(orange)",
+            "foreground": "var(orange)"
         },
         {
             "name": "CSS Classes",
@@ -304,8 +304,7 @@
         {
             "name": "Markdown - Blockquote",
             "scope": "markup.quote punctuation.definition.blockquote.markdown",
-            "foreground": "var(darkblue)",
-            "background": "var(darkblue)"
+            "foreground": "var(darkblue)"
         },
         {
             "name": "Markup - Quote",
