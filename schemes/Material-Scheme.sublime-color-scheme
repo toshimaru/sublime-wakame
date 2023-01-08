@@ -26,6 +26,7 @@
     },
     "globals":
     {
+        "accent": "var(blue)",
         "foreground": "var(white)",
         "background": "var(background)",
         "caret": "var(white2)",
