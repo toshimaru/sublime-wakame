@@ -7,11 +7,11 @@
         "black": "#000000",
         "blue": "#82aaff",
         "blue2": "#89ddff",
-        "blue3": "#65737e",
         "blue4": "#37474f",
         "blue5": "#b2ccd6",
         "blue6": "#546e7a",
         "cyan": "#80cbc4",
+        "darkblue": "#65737e",
         "green": "#c3e88d",
         "orange": "#ffcb6b",
         "orange2": "#ffcc00",
@@ -29,7 +29,7 @@
         "foreground": "var(white)",
         "background": "var(background)",
         "caret": "var(white2)",
-        "invisibles": "var(blue3)",
+        "invisibles": "var(darkblue)",
         "line_highlight": "color(var(white) alpha(0.1))",
         "selection": "color(var(cyan) alpha(0.13))",
         "selection_border": "color(var(cyan) alpha(0.13))",
@@ -260,7 +260,7 @@
         {
             "name": "Markdown - Markup Raw Inline Punctuation",
             "scope": "text.html.markdown punctuation.definition.raw.markdown",
-            "foreground": "var(blue3)"
+            "foreground": "var(darkblue)"
         },
         {
             "name": "Markdown - Line Break",
@@ -304,8 +304,8 @@
         {
             "name": "Markdown - Blockquote",
             "scope": "markup.quote punctuation.definition.blockquote.markdown",
-            "foreground": "var(blue3)",
-            "background": "var(blue3)"
+            "foreground": "var(darkblue)",
+            "background": "var(darkblue)"
         },
         {
             "name": "Markup - Quote",
@@ -351,7 +351,7 @@
         {
             "name": "Markdown - Fenced Language",
             "scope": "variable.language.fenced.markdown",
-            "foreground": "var(blue3)"
+            "foreground": "var(darkblue)"
         },
         {
             "name": "Markdown - Punctuation Definition",
@@ -366,7 +366,7 @@
         {
             "name": "Markdown - Separator",
             "scope": "meta.separator",
-            "foreground": "var(blue3)",
+            "foreground": "var(darkblue)",
             "background": "color(var(black) alpha(0.31))",
             "font_style": "bold"
         },
@@ -399,12 +399,12 @@
         {
             "name": "GitGutter Ignored",
             "scope": "markup.ignored.git_gutter",
-            "foreground": "var(blue3)"
+            "foreground": "var(darkblue)"
         },
         {
             "name": "GitGutter Untracked",
             "scope": "markup.untracked.git_gutter",
-            "foreground": "var(blue3)"
+            "foreground": "var(darkblue)"
         },
         {
             "name": "GitGutter Inserted",
