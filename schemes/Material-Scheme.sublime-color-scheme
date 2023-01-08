@@ -38,8 +38,7 @@
         "guide": "color(var(blue4) alpha(0.5))",
         "active_guide": "color(var(cyan) alpha(0.44))",
         "stack_guide": "var(blue4)",
-        "find_highlight": "var(yellow)",
-        "popup_css": "html {\n  background-color: #263238;\n  color: #EEFFFF;\n  padding: 16px;\n}\na {\n  color: #B2CCD6;\n  line-height: 16px;\n}\n.error, .deleted {\n  color: #FF5370;\n}\n.success, .inserted {\n  color: #C3E88D;\n}\n.warning, .modified {\n  color: #FFCB6B;\n}\n.type {\n  color: #89DDFF;\n  font-style: italic;\n}\n.param {\n  color: #F78C6C;\n}\n.current {\n  text-decoration: underline;\n}\n"
+        "find_highlight": "var(yellow)"
     },
     "rules":
     [
