@@ -109,7 +109,7 @@
         },
         {
             "name": "Tag",
-            "scope": "entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter",
+            "scope": "entity.name.tag, meta.tag.sgml",
             "foreground": "var(red)"
         },
         {
@@ -140,13 +140,13 @@
         },
         {
             "name": "String, Symbols, Inherited Class, Markup Heading",
-            "scope": "string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, markup.inserted.git_gutter, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+            "scope": "string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
             "foreground": "var(green)",
             "font_style": "normal"
         },
         {
             "name": "Class, Support",
-            "scope": "entity.name.class, entity.name.type.class, support.type, support.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php, markup.changed.git_gutter, support.type.sys-types",
+            "scope": "entity.name.class, entity.name.type.class, support.type, support.class, support.other.namespace.use.php, meta.use.php, support.other.namespace.php, support.type.sys-types",
             "foreground": "var(orange)"
         },
         {
@@ -397,34 +397,9 @@
             "background": "var(red4)"
         },
         {
-            "name": "GitGutter Ignored",
-            "scope": "markup.ignored.git_gutter",
-            "foreground": "var(darkblue)"
-        },
-        {
-            "name": "GitGutter Untracked",
-            "scope": "markup.untracked.git_gutter",
-            "foreground": "var(darkblue)"
-        },
-        {
-            "name": "GitGutter Inserted",
-            "scope": "markup.inserted.git_gutter",
-            "foreground": "var(green)"
-        },
-        {
-            "name": "GitGutter Changed",
-            "scope": "markup.changed.git_gutter",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "GitGutter Deleted",
-            "scope": "markup.deleted.git_gutter",
-            "foreground": "var(red2)"
-        },
-        {
             "name": "Entity name",
             "scope": "entity.name - (entity.name.filename | entity.name.section | entity.name.label)",
             "foreground": "var(red)"
-        },
+        }
     ]
 }
