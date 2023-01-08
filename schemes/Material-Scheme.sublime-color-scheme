@@ -85,13 +85,8 @@
         },
         {
             "name": "Keyword, Storage",
-            "scope": "keyword, storage.type, storage.modifier",
+            "scope": "keyword, keyword.control, storage.type, storage.modifier",
             "foreground": "var(purple)"
-        },
-        {
-            "name": "Keyword, Storage",
-            "scope": "storage.type, keyword.control",
-            "font_style": "italic"
         },
         {
             "name": "Operator",
