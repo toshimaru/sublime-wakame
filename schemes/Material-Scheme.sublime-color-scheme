@@ -9,9 +9,9 @@
         "blue2": "#89ddff",
         "blue4": "#37474f",
         "blue5": "#b2ccd6",
-        "blue6": "#546e7a",
         "cyan": "#80cbc4",
         "darkblue": "#65737e",
+        "darkblue2": "#546e7a",
         "green": "#c3e88d",
         "orange": "#ffcb6b",
         "orange2": "#ffcc00",
@@ -45,7 +45,7 @@
         {
             "name": "Comments",
             "scope": "comment, punctuation.definition.comment",
-            "foreground": "var(blue6)",
+            "foreground": "var(darkblue2)",
             "font_style": "italic"
         },
         {
@@ -355,7 +355,7 @@
         {
             "name": "Markdown - Punctuation Definition",
             "scope": "text.html.markdown punctuation.definition",
-            "foreground": "var(blue6)"
+            "foreground": "var(darkblue2)"
         },
         {
             "name": "Markdown HTML - Punctuation Definition",
