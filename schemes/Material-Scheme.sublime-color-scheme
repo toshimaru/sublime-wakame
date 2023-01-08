@@ -12,6 +12,7 @@
         "cyan": "#80cbc4",
         "darkblue": "#65737e",
         "darkblue2": "#546e7a",
+        "foreground": "#eeffff",
         "green": "#c3e88d",
         "orange": "#ffcb6b",
         "orange2": "#ffcc00",
@@ -22,16 +23,16 @@
         "red4": "#c17e70",
         "white": "#eeffff",
         "white2": "#c5c8c6",
-        "yellow": "#f8e71c",
+        "yellow": "#f8e71c"
     },
     "globals":
     {
         "accent": "var(blue)",
-        "foreground": "var(white)",
+        "foreground": "var(foreground)",
         "background": "var(background)",
         "caret": "var(white2)",
         "invisibles": "var(darkblue)",
-        "line_highlight": "color(var(white) alpha(0.1))",
+        "line_highlight": "color(var(foreground) alpha(0.1))",
         "selection": "color(var(cyan) alpha(0.13))",
         "selection_border": "color(var(cyan) alpha(0.13))",
         "gutter_foreground": "var(blue4)",
