@@ -1,9 +1,24 @@
 {
+  "definitions": {
+    "scheme": {
+      "properties": {
+        "name": { "type": "string" },
+        "scope": { "type": "string" }
+      },
+      "optionalProperties": {
+        "foreground": { "type": "string" },
+        "background": { "type": "string" },
+        "font_style": { "type": "string" }
+      }
+    }
+  },
   "properties": {
     "name": { "type": "string" },
     "author": { "type": "string" },
-    "variables": {},
-    "globals": {},
-    "rules": { "elements": {} }
+    "variables": { "values": { "type": "string" }},
+    "globals": { "values": { "type": "string" }},
+    "rules": { 
+      "elements": { "ref": "scheme" }
+    }
   }
 }
