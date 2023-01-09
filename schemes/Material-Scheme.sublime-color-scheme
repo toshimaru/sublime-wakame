@@ -307,60 +307,14 @@
             "font_style": "italic"
         },
         {
-            "name": "Markdown - Link",
-            "scope": "string.other.link.title.markdown",
-            "foreground": "var(blue)"
-        },
-        {
-            "name": "Markdown - Link Description",
-            "scope": "string.other.link.description.title.markdown",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Markdown - Link Anchor",
-            "scope": "constant.other.reference.link.markdown",
-            "foreground": "var(orange)"
-        },
-        {
-            "name": "Markup - Raw Block",
-            "scope": "markup.raw.block",
-            "foreground": "var(purple)"
-        },
-        {
-            "name": "Markdown - Raw Block Fenced",
-            "scope": "markup.raw.block.fenced.markdown",
-            "background": "color(var(black) alpha(0.31))"
-        },
-        {
-            "name": "Markdown - Fenced Bode Block",
-            "scope": "punctuation.definition.fenced.markdown",
-            "background": "color(var(black) alpha(0.31))"
-        },
-        {
-            "name": "Markdown - Fenced Bode Block Variable",
-            "scope": "markup.raw.block.fenced.markdown, variable.language.fenced.markdown, punctuation.section.class.end",
-            "foreground": "var(white2)"
-        },
-        {
-            "name": "Markdown - Fenced Language",
-            "scope": "variable.language.fenced.markdown",
-            "foreground": "var(darkblue)"
-        },
-        {
             "name": "Markdown - Punctuation Definition",
             "scope": "text.html.markdown punctuation.definition",
             "foreground": "var(darkblue2)"
         },
         {
-            "name": "Markdown HTML - Punctuation Definition",
-            "scope": "text.html.markdown meta.disable-markdown punctuation.definition",
-            "foreground": "var(blue2)"
-        },
-        {
             "name": "Markdown - Separator",
             "scope": "meta.separator",
             "foreground": "var(darkblue)",
-            "background": "color(var(black) alpha(0.31))",
             "font_style": "bold"
         },
         {
