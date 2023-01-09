@@ -155,14 +155,9 @@
             "foreground": "var(cyan)"
         },
         {
-            "name": "Sub-methods",
-            "scope": "entity.name.module.js, variable.import.parameter.js, variable.other.class.js",
-            "foreground": "var(red2)"
-        },
-        {
             "name": "Language methods",
             "scope": "variable.language",
-            "foreground": "var(red2)",
+            "foreground": "var(red)",
             "font_style": "italic"
         },
         {
