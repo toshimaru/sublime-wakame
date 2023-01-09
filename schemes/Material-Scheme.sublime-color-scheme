@@ -243,8 +243,13 @@
         },
         {
             "name": "Markdown - Plain",
-            "scope": "text.html.markdown, punctuation.definition.list_item.markdown",
+            "scope": "text.html.markdown",
             "foreground": "var(white)"
+        },
+        {
+            "name": "Markdown - List",
+            "scope": "punctuation.definition.list_item.markdown",
+            "foreground": "var(orange)"
         },
         {
             "name": "Markdown - Markup Raw Inline",
