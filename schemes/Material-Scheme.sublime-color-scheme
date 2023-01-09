@@ -119,7 +119,7 @@
         },
         {
             "name": "Other Variable, String Link",
-            "scope": "support.other.variable, string.other.link",
+            "scope": "support.other.variable",
             "foreground": "var(red)"
         },
         {
@@ -285,8 +285,8 @@
         },
         {
             "name": "Markup - Underline",
-            "scope": "markup.underline",
-            "foreground": "var(red3)",
+            "scope": "markup.underline, string.other.link",
+            "foreground": "var(blue)",
             "font_style": "underline"
         },
         {
