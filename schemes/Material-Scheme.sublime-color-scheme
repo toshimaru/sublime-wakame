@@ -135,10 +135,14 @@
             "foreground": "var(purple)"
         },
         {
-            "name": "String, Symbols, Inherited Class, Markup Heading",
-            "scope": "string, constant.other.symbol, constant.other.key, entity.other.inherited-class, markup.heading, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-            "foreground": "var(green)",
-            "font_style": "normal"
+            "name": "String, Inherited Class, Markup Heading",
+            "scope": "string, constant.other.key, entity.other.inherited-class, markup.heading, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Symbols",
+            "scope": "constant.other.symbol",
+            "foreground": "var(cyan)"
         },
         {
             "name": "Class, Support",
