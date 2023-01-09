@@ -124,8 +124,8 @@
             "foreground": "var(red)"
         },
         {
-            "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-            "scope": "constant.numeric, constant.language, constant.character, variable.parameter, keyword.other.unit",
+            "name": "Constant, Function Argument, Tag Attribute, Embedded",
+            "scope": "constant.language, constant.character, variable.parameter, keyword.other.unit",
             "foreground": "var(red3)"
         },
         {
@@ -135,8 +135,8 @@
             "foreground": "var(purple)"
         },
         {
-            "name": "String, Inherited Class, Markup Heading",
-            "scope": "string, constant.other.key, entity.other.inherited-class, markup.heading, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+            "name": "String, Number, Inherited Class, Markup Heading",
+            "scope": "string, constant.numeric, constant.other.key, entity.other.inherited-class, markup.heading, meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
             "foreground": "var(green)"
         },
         {
