@@ -308,8 +308,13 @@
         {
             "name": "Markup - Quote",
             "scope": "markup.quote",
-            "foreground": "",
+            "foreground": "var(white2)",
             "font_style": "italic"
+        },
+        {
+            "name": "Markup - code",
+            "scope": "markup.raw",
+            "foreground": "var(white2)"
         },
         {
             "name": "Markdown - Punctuation Definition",
