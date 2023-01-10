@@ -140,7 +140,7 @@
         },
         {
             "name": "Symbols",
-            "scope": "constant.other.symbol",
+            "scope": "constant.other, constant.other.symbol",
             "foreground": "var(cyan)"
         },
         {
