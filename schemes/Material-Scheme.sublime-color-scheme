@@ -285,7 +285,7 @@
         },
         {
             "name": "Markup - Bold & Italic",
-            "scope": "markup.bold markup.italic, markup.italic markup.bold, markup.quote markup.bold, markup.bold markup.italic string, markup.italic markup.bold string, markup.quote markup.bold string",
+            "scope": "markup.italic markup.bold, markup.bold markup.italic",
             "font_style": "bold italic"
         },
         {
