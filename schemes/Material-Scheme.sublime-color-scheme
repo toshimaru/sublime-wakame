@@ -357,6 +357,11 @@
             "name": "Entity name",
             "scope": "entity.name - (entity.name.filename | entity.name.section | entity.name.label)",
             "foreground": "var(red)"
+        },
+        {
+            "name": "Ruby interpolation punctuation",
+            "scope": "punctuation.section.interpolation",
+            "foreground": "var(red4)"
         }
     ]
 }
