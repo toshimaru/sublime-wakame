@@ -225,6 +225,11 @@
             "foreground": "var(red4)"
         },
         {
+            "name": "Search Results Match Nums",
+            "scope": "constant.numeric.line-number.match",
+            "foreground": "var(red3)"
+        },
+        {
             "name": "Search Results Lines",
             "scope": "entity.name.filename.find-in-files",
             "foreground": "var(green)"
