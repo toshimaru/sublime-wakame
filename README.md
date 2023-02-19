@@ -13,6 +13,12 @@ Material Color Scheme for Sublime Text 3/4.
 * Theme: Adaptive
 * Icon: [A File Icon](https://github.com/SublimeText/AFileIcon)
 
+## Installation
+
+- Press `cmd/ctrl` + `shift` + `p` to open the command palette
+- Type `install package` and press enter
+- Then search for **"Material Scheme"**
+
 ## Similar Projects
 
 - [SublimeText/material-theme](https://github.com/SublimeText/material-theme)
