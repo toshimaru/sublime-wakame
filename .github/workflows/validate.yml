@@ -17,4 +17,4 @@ jobs:
           unzip x86_64-unknown-linux-gnu.zip
       - name: Validate sublime-color-scheme with jtd-validate
         run: |
-          cat schemes/Material-Scheme.sublime-color-scheme | ./jtd-validate jtd/sublime-color-scheme.jtd.json
+          cat schemes/Wakame.sublime-color-scheme | ./jtd-validate jtd/sublime-color-scheme.jtd.json
